@@ -1,0 +1,22 @@
+{
+  "name": "webscraper-api",
+  "version": "1.0.0",
+  "description": "Webscraper RESTapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Csergezan Istvan",
+  "license": "ISC",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "natural": "^6.8.0",
+    "puppeteer": "^21.3.8",
+    "stopword": "^2.0.8"
+  },
+  "type": "module"
+}

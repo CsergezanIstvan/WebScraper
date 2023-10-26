@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>Webscraper</title>
+</head>
+
+<body>
+
+  <div class="flex flex-col items-center mt-4">
+    <p class="text-black text-center text-4xl font-bold mt-2 mb-7">Web Scraper</p>
+    <div class="flex items-center justify-center h-9 border-2 border-black-200 rounded-xl">
+      <span id="search" class="material-symbols-outlined">
+        Search
+      </span>
+      <input id="url-input" type="text" placeholder="Search" class="bg-transparent outline-none pl-10 w-96">
+
+    </div>
+    <p class="text-black text-center text-4xl font-bold mt-7">Results</p>
+    <div class="h-96 w-2/3">
+      <pre id="result" class="min-h-full bg-gray-300 mt-5 whitespace-pre-wrap"></pre>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
