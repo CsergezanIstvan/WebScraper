@@ -6,7 +6,7 @@ const search = document.getElementById("search");
 
 search.addEventListener('click', () => {
  const inputValue = urlInput.value;
- resultElement.textContent = '';
+ resultElement.textContent = 'Scraping website...';
 
  scrap(inputValue);
 }, { capture: true });
