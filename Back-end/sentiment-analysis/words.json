@@ -35,5 +35,7 @@
     "diabetes",
     "unhealthy",
     "waste",
-    "harm"]
+    "harm"],
+    "negators": ["not"],
+    "enhencers": ["very"]
 }
