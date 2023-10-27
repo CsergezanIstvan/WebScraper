@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import { analyzeSentiment } from './sentiment-analyzer.js';
+import { analyzeSentiment } from './sentiment-analysis/sentiment-analyzer.js';
 
 const getDate = (imageElement) => {
     const aElement = imageElement.parentNode;
@@ -97,7 +97,7 @@ const imageSource = (imageElement) => {
 
 export const scrapeWebsite = async (url) => {
     const browser = await puppeteer.launch({
-    headless: true,
+    headless: 'new',
     defaultViewport: null,
 });
 
